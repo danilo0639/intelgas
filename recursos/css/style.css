@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+ display: flex;
+  color: aliceblue;
+  background-image: url("https://static01.nyt.com/images/2018/03/18/fashion/16frenchie/16frenchie-superJumbo.jpg" 
+  );
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.container .container2{
+  width: 200px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  float: inline-start;
+}
+.container .text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  font-size: 40px;
+  font-weight: bold;
+ 
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #e63600;
+    border-radius: 6px;
+    border: 2px solid #020202;
+}
+.container .button{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: center;
+  }
+
+.button2{
+ 
+   
+    align-items: center;
+    justify-content: center;
+    float: center;
+    }
+
+button:active{
+  margin-top: 5px;
+  color: steelblue;
+}
+button:hover{
+  cursor: pointer;
+  color:aqua;
+
+
+}
+
+.containerp{
+  width: 100vw;
+  height: 35vh;
+ display: flex;
+ align-items: flex-start;
+
+}
+.texto1{
+  width: 600px;
+  height: 100px;
+  font-size: 30px;
+  color: darkblue;
+  text-align: center;
+  word-spacing: 1%;
+  margin: 0 auto;
+  
+  
+  
+}
+.container3{
+  width: 100vw;
+  height: 20vh;
+ display: flex;
+ align-items: flex-start;
+
+}
+.texto2{
+  width: 800px;
+  height: 100px;
+  font-size: 25px;
+  color: rgb(13, 13, 14);
+  text-align: center;
+  word-spacing: 1%;
+  margin: 0 auto;
+  
+  
+}
+.container4{
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+ 
+}
+.container5{
+  width: 100vw;
+  height: 50vh;
+ background-image: url("https://depor.com/resizer/tWkgaFkRSfQvJrxQJP3zxVe35K4=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DOSTJYG5PVBK3ELX3UXALXJYPQ.jpg");
+ 
+}
+
+.footer{
+  width: 100vw;
+  height: 40vh;
+}
+.footer h1{
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+  word-spacing: 1%;
+  margin: 0 auto;
+}
+
+
+.footer p{
+  font-size: 30px;
+  color: rgb(9, 9, 12);
+  text-align: center;
+  word-spacing: 1%;
+  margin: 0 auto;
+}
